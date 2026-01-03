@@ -102,11 +102,12 @@ Este Código de Conducta aplica en:
 
 Si experimentas o presencias comportamiento abusivo, acosador, o de otro modo inaceptable, por favor repórtalo contactando al equipo del proyecto:
 
-📧 **Email:** [Tu email aquí - agregar antes de merge]
+📧 **Email:** 85331368+Krakaur@users.noreply.github.com
 
 **Alternativamente:**
-- Crear un issue privado (si GitHub lo permite en tu plan)
+- Crear un issue con etiqueta `code-of-conduct`
 - Contactar directamente a @Krakaur vía mensaje privado en GitHub
+- Iniciar una discusión privada en GitHub Discussions
 
 ### Qué Incluir en un Reporte
 
@@ -160,7 +161,7 @@ Las consecuencias por violar este Código de Conducta pueden incluir, pero no se
 Si crees que has sido injustamente acusado de violar este Código de Conducta, debes notificar al equipo del proyecto con una descripción concisa de tu queja. Tu queja será manejada de acuerdo con nuestras políticas de gobierno existentes.
 
 **Proceso de apelación:**
-1. Enviar email a [email del proyecto] dentro de 14 días de la decisión
+1. Enviar email a 85331368+Krakaur@users.noreply.github.com dentro de 14 días de la decisión
 2. Incluir evidencia de por qué consideras la decisión injusta
 3. Esperar revisión por mantenedores no involucrados en la decisión original
 4. Recibir decisión final dentro de 30 días
@@ -213,7 +214,7 @@ Este Código de Conducta es una adaptación del [Contributor Covenant](https://w
 ## 📞 Contacto
 
 Para preguntas sobre este Código de Conducta:
-- 📧 Email: [Agregar antes de merge]
+- 📧 Email: 85331368+Krakaur@users.noreply.github.com
 - 💬 GitHub Issues: Tag con `code-of-conduct`
 - 👤 Maintainer: @Krakaur
 
