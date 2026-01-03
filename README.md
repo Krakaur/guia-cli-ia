@@ -299,10 +299,13 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 ## 👤 Autor
 
 **Dr. Hans Krakaur (Wintermute)**
-- Estudiante Doctoral en DSAE, Universidad de Guadalajara
-- Investigación: Sistemas Multi-Agente, IA para Sustentabilidad
-- GitHub: [@Krakaur](https://github.com/Krakaur)
-- Sitio: [krakaur.github.io/guia-cli-ia](https://krakaur.github.io/guia-cli-ia)
+- 🎓 Estudiante Doctoral en DSAE, Universidad de Guadalajara
+- 🔬 Investigación: Sistemas Multi-Agente, IA para Sustentabilidad
+- 💻 GitHub: [@Krakaur](https://github.com/Krakaur)
+- 🌐 Sitio: [krakaur.github.io/guia-cli-ia](https://krakaur.github.io/guia-cli-ia)
+- 🆔 ORCID: [0000-0002-6465-034X](https://orcid.org/0000-0002-6465-034X)
+- 📚 Google Scholar: [Ver publicaciones](https://scholar.google.com/citations?user=i6jd4FoAAAAJ&hl=en)
+- 💼 LinkedIn: [Conectar](https://www.linkedin.com/in/dirk-hans-krakaur-784ab51a0/)
 
 ---
 
