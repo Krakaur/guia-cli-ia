@@ -1,0 +1,9 @@
+# Dependencias para tests
+pytest>=7.0.0
+pytest-cov>=4.0.0
+pytest-timeout>=2.1.0
+
+# Dependencias para desarrollo
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
