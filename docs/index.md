@@ -9,7 +9,13 @@ title: Inicio
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub stars](https://img.shields.io/github/stars/Krakaur/guia-cli-ia)](https://github.com/Krakaur/guia-cli-ia/stargazers)
-[![Estado: Activo](https://img.shields.io/badge/Estado-Activo-success.svg)]()
+[![CLIs: 7/7 Completos](https://img.shields.io/badge/CLIs-7%2F7_Completos-brightgreen.svg)]()
+
+---
+
+## 🎉 Los Magníficos 7 - COMPLETOS
+
+**Primera guía completa en español** cubriendo los 7 CLIs más importantes para investigación y desarrollo con IA.
 
 ---
 
@@ -29,34 +35,39 @@ Esta guía nace de **meses de experiencia práctica** trabajando con múltiples 
 
 <div class="cli-grid">
 
-### [Claude Code CLI](claude-code.html)
+### 1. [Claude Code CLI](claude-code.html)
 **Región:** 🇺🇸 USA  
 **Mejor para:** Análisis profundo, código complejo  
 **Estado:** ✅ Operativo  
 
-### [Gemini CLI](gemini-cli.html)
+### 2. [Gemini CLI](gemini-cli.html)
 **Región:** 🇺🇸 USA  
 **Mejor para:** Validación rápida, crítico M2  
 **Estado:** ✅ Operativo  
 
-### [GitHub Copilot CLI](copilot-cli.html)
+### 3. [GitHub Copilot CLI](copilot-cli.html)
 **Región:** 🇺🇸 USA  
 **Mejor para:** Acceso a 13 modelos diferentes  
 **Estado:** ✅ Operativo  
 
-### [DeepSeek CLI](deepseek-cli.html)
+### 4. [DeepSeek CLI](deepseek-cli.html)
 **Región:** 🇨🇳 China  
 **Mejor para:** Perspectiva china, backup rápido  
 **Estado:** ✅ Operativo (con fix UTF-8)  
 
-### [Qwen CLI](qwen-cli.html)
+### 5. [Qwen CLI](qwen-cli.html)
 **Región:** 🇨🇳 China  
 **Mejor para:** Consultas individuales  
 **Estado:** ⚠️ No usar en batch largo  
 
-### [Codex CLI (GPT-5.2)](codex-cli.html)
+### 6. [Codex CLI (GPT-5.2)](codex-cli.html)
 **Región:** 🇺🇸 USA  
 **Mejor para:** Automatización seria, JSON limpio  
+**Estado:** ✅ Operativo  
+
+### 7. [GitHub CLI](github-cli.html) 🎉
+**Región:** 🇺🇸 USA  
+**Mejor para:** Gestión de repos, issues, PRs  
 **Estado:** ✅ Operativo  
 
 </div>

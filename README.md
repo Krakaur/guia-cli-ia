@@ -5,6 +5,16 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Estado: Activo](https://img.shields.io/badge/Estado-Activo-success.svg)]()
 [![Idioma: Español](https://img.shields.io/badge/Idioma-Español-blue.svg)]()
+[![CLIs: 7/7](https://img.shields.io/badge/CLIs-7%2F7_Completos-brightgreen.svg)]()
+[![GitHub Pages](https://img.shields.io/badge/Sitio-GitHub_Pages-blue.svg)](https://krakaur.github.io/guia-cli-ia)
+
+---
+
+## 🎉 Los Magníficos 7 - COMPLETOS
+
+**Primera guía completa en español** cubriendo los 7 CLIs más importantes para investigación y desarrollo con IA.
+
+🌐 **Sitio Web:** [krakaur.github.io/guia-cli-ia](https://krakaur.github.io/guia-cli-ia)
 
 ---
 
@@ -33,17 +43,19 @@ Esta guía nace de **meses de experiencia práctica** trabajando con múltiples 
 
 ## 🛠️ CLIs Cubiertos
 
-| CLI | Región | Estado | Documentación |
-|-----|--------|--------|---------------|
-| **Claude Code** | 🇺🇸 USA | ✅ Operativo | [Ver guía](./claude-code/) |
-| **Gemini CLI** | 🇺🇸 USA | ✅ Operativo | [Ver guía](./gemini-cli/) |
-| **GitHub Copilot CLI** | 🇺🇸 USA | ✅ Operativo | [Ver guía](./copilot-cli/) |
-| **DeepSeek CLI** | 🇨🇳 China | ✅ Operativo | [Ver guía](./deepseek-cli/) |
-| **Qwen CLI** | 🇨🇳 China | ✅ Operativo | [Ver guía](./qwen-cli/) |
-| **Codex CLI** (GPT-5.2) | 🇺🇸 USA | ✅ Operativo | [Ver guía](./codex-cli/) |
-| **GitHub CLI** | 🇺🇸 USA | ✅ Operativo | [Ver guía](./github-cli/) |
+### Los Magníficos 7 🎉
 
-**Perspectiva Geográfica:** Esta colección permite **triangular respuestas** de modelos entrenados en diferentes regiones (USA, Europa, China), reduciendo sesgos culturales en investigación académica.
+| # | CLI | Región | Estado | Documentación |
+|---|-----|--------|--------|---------------|
+| 1 | **Claude Code** | 🇺🇸 USA | ✅ Operativo | [Ver guía](./claude-code/) |
+| 2 | **Gemini CLI** | 🇺🇸 USA | ✅ Operativo | [Ver guía](./gemini-cli/) |
+| 3 | **GitHub Copilot CLI** | 🇺🇸 USA | ✅ Operativo | [Ver guía](./copilot-cli/) |
+| 4 | **DeepSeek CLI** | 🇨🇳 China | ✅ Operativo | [Ver guía](./deepseek-cli/) |
+| 5 | **Qwen CLI** | 🇨🇳 China | ✅ Operativo | [Ver guía](./qwen-cli/) |
+| 6 | **Codex CLI** (GPT-5.2) | 🇺🇸 USA | ✅ Operativo | [Ver guía](./codex-cli/) |
+| 7 | **GitHub CLI** | 🇺🇸 USA | ✅ Operativo | [Ver guía](./github-cli/) |
+
+**Perspectiva Geográfica:** Esta colección permite **triangular respuestas** de modelos entrenados en diferentes regiones (USA, China), reduciendo sesgos culturales en investigación académica.
 
 ---
 
@@ -71,11 +83,40 @@ npm install -g @google/generative-ai-cli
 
 ---
 
-## 📁 Estructura del Repositorio
+## 📚 Recursos Adicionales
+
+### 🌐 Sitio Web
+
+Visita [krakaur.github.io/guia-cli-ia](https://krakaur.github.io/guia-cli-ia) para:
+- Navegación optimizada
+- SEO completo
+- Búsqueda integrada
+- Versión web-friendly
+
+### 📄 Guías Especiales
+
+- **[Comparativa de CLIs](./troubleshooting/comparativa-clis.md)** - ¿Cuándo usar qué?
+- **[Casos Reales](./troubleshooting/casos-reales.md)** - Problemas documentados y soluciones
+- **[Integración MCP](./troubleshooting/integracion-mcp.md)** - Uso con Model Context Protocol
+
+---
+
+## 📚 Estructura del Repositorio
 
 ```
 guia-cli-ia/
 ├── README.md                    # Este archivo
+├── docs/                        # Sitio GitHub Pages
+│   ├── index.md                 # Landing page
+│   ├── claude-code.md
+│   ├── gemini-cli.md
+│   ├── copilot-cli.md
+│   ├── deepseek-cli.md
+│   ├── qwen-cli.md
+│   ├── codex-cli.md
+│   ├── github-cli.md
+│   ├── comparativa.md
+│   └── troubleshooting.md
 ├── claude-code/
 │   ├── README.md               # Guía completa Claude Code
 │   ├── ejemplos/               # Ejemplos de uso
@@ -154,12 +195,17 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 - Estudiante Doctoral en DSAE, Universidad de Guadalajara
 - Investigación: Sistemas Multi-Agente, IA para Sustentabilidad
 - GitHub: [@Krakaur](https://github.com/Krakaur)
+- Sitio: [krakaur.github.io/guia-cli-ia](https://krakaur.github.io/guia-cli-ia)
 
 ---
 
-## 🙏 Agradecimientos
+## 🚀 Proyecto Round Table
 
 Esta documentación fue desarrollada como parte del proyecto **Round Table** para orquestación de sistemas multi-agente en investigación académica.
+
+**Otros proyectos relacionados:**
+- [RoundTable MCP Server](https://sala.krakaurcorp.uk/mcp) - Servidor MCP para memoria persistente
+- [Paper-Search MCP](https://academic.krakaurcorp.uk/mcp) - Búsqueda académica
 
 ---
 
