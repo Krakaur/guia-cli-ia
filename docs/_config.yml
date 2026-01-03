@@ -1,0 +1,41 @@
+# Configuración del sitio
+title: Guía de CLIs de IA en Español
+description: Documentación completa de Claude Code, Gemini, Copilot, DeepSeek, Qwen y Codex CLI
+author: Dr. Hans Krakaur
+email: dirkhans@universidadmundial.edu.mx
+url: https://krakaur.github.io
+baseurl: /guia-cli-ia
+
+# SEO
+lang: es
+timezone: America/Mexico_City
+
+# Theme
+theme: minima
+
+# Social
+github_username: Krakaur
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Collections
+header_pages:
+  - claude-code.md
+  - gemini-cli.md
+  - copilot-cli.md
+  - deepseek-cli.md
+  - qwen-cli.md
+  - codex-cli.md
+  - comparativa.md
+  - troubleshooting.md
