@@ -7,6 +7,8 @@
 [![Idioma: Español](https://img.shields.io/badge/Idioma-Español-blue.svg)]()
 [![CLIs: 7/7](https://img.shields.io/badge/CLIs-7%2F7_Completos-brightgreen.svg)]()
 [![GitHub Pages](https://img.shields.io/badge/Sitio-GitHub_Pages-blue.svg)](https://krakaur.github.io/guia-cli-ia)
+[![Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)]()
+[![JOSS](https://img.shields.io/badge/JOSS-in_review-yellow.svg)](https://joss.theoj.org)
 
 ---
 
@@ -16,6 +18,8 @@
 
 🌐 **Sitio Web:** [krakaur.github.io/guia-cli-ia](https://krakaur.github.io/guia-cli-ia)
 
+📄 **Publicación Académica:** En revisión para [Journal of Open Source Software (JOSS)](https://joss.theoj.org)
+
 ---
 
 ## 📋 Tabla de Contenidos
@@ -24,6 +28,9 @@
 - [CLIs Cubiertos](#clis-cubiertos)
 - [Instalación Rápida](#instalación-rápida)
 - [Estructura del Repositorio](#estructura-del-repositorio)
+- [Testing](#testing)
+- [Casos de Uso](#casos-de-uso)
+- [Cómo Citar](#cómo-citar)
 - [Contribuir](#contribuir)
 - [Licencia](#licencia)
 
@@ -38,6 +45,7 @@ Esta guía nace de **meses de experiencia práctica** trabajando con múltiples 
 - ✅ **Comparativas de rendimiento** entre modelos
 - ✅ **Casos de uso prácticos** para investigación y desarrollo
 - ✅ **Todo en español** 🇪🇸 🇲🇽
+- ✅ **Tests automatizados** que validan cada claim
 
 ---
 
@@ -106,6 +114,9 @@ Visita [krakaur.github.io/guia-cli-ia](https://krakaur.github.io/guia-cli-ia) pa
 ```
 guia-cli-ia/
 ├── README.md                    # Este archivo
+├── CONTRIBUTING.md              # Guía de contribución
+├── CODE_OF_CONDUCT.md           # Código de conducta
+├── CITATION.cff                 # Metadata para citaciones
 ├── docs/                        # Sitio GitHub Pages
 │   ├── index.md                 # Landing page
 │   ├── claude-code.md
@@ -117,6 +128,9 @@ guia-cli-ia/
 │   ├── github-cli.md
 │   ├── comparativa.md
 │   └── troubleshooting.md
+├── tests/                       # Test suite automatizado
+│   ├── test_cli_validation.py   # Tests de validación
+│   └── README.md                # Documentación de tests
 ├── claude-code/
 │   ├── README.md               # Guía completa Claude Code
 │   ├── ejemplos/               # Ejemplos de uso
@@ -146,6 +160,35 @@ guia-cli-ia/
 
 ---
 
+## 🧪 Testing
+
+Este proyecto incluye un **test suite automatizado** que valida:
+
+✅ Instalación correcta de los 7 CLIs  
+✅ Comportamientos documentados (ej: Gemini es stateless, DeepSeek requiere UTF-8)  
+✅ Compatibilidad con workflows multi-agente (patrón M1-M2)  
+✅ Triangulación geográfica USA/China  
+
+### Ejecutar Tests
+
+```bash
+# Instalar dependencias
+pip install -r requirements.txt
+
+# Ejecutar todos los tests
+pytest
+
+# Tests específicos
+pytest tests/test_cli_validation.py -v
+
+# Ver documentación completa
+cat tests/README.md
+```
+
+**Filosofía de testing:** Los tests NO consumen APIs reales, validando solo instalación y comportamiento documentado. Esto permite CI/CD sin rate limits.
+
+---
+
 ## 🎓 Casos de Uso
 
 ### Investigación Académica
@@ -165,21 +208,83 @@ guia-cli-ia/
 
 ---
 
+## 📚 Cómo Citar
+
+Si usas esta guía en tu investigación o trabajo, por favor cítala:
+
+### BibTeX
+
+```bibtex
+@software{krakaur_guia_clis_ia_2026,
+  author = {Krakaur, Hans (Wintermute)},
+  title = {Guía de CLIs de IA en Español: Documentación Práctica con Triangulación Geográfica},
+  year = {2026},
+  publisher = {GitHub},
+  journal = {Journal of Open Source Software},
+  url = {https://github.com/Krakaur/guia-cli-ia},
+  doi = {10.XXXX/joss.XXXXX},
+  note = {In review for JOSS}
+}
+```
+
+### APA 7th Edition
+
+```
+Krakaur, H. (2026). Guía de CLIs de IA en Español: Documentación Práctica con 
+    Triangulación Geográfica [Computer software]. Journal of Open Source Software. 
+    https://github.com/Krakaur/guia-cli-ia
+```
+
+### IEEE
+
+```
+H. Krakaur, "Guía de CLIs de IA en Español: Documentación Práctica con Triangulación 
+Geográfica," Journal of Open Source Software, 2026. [Online]. Available: 
+https://github.com/Krakaur/guia-cli-ia
+```
+
+**Nota:** El DOI será asignado tras aceptación en JOSS. Esta sección se actualizará con el DOI oficial.
+
+---
+
 ## 🤝 Contribuir
 
-¡Las contribuciones son bienvenidas! Si tienes:
+¡Las contribuciones son bienvenidas! Este proyecto sigue estándares de código abierto rigurosos.
+
+### Antes de Contribuir
+
+Por favor lee:
+- 📋 **[Guía de Contribución](CONTRIBUTING.md)** - Proceso detallado, estándares, ejemplos
+- 🤝 **[Código de Conducta](CODE_OF_CONDUCT.md)** - Normas de la comunidad
+
+### Tipos de Contribuciones Bienvenidas
 
 - ✨ Nuevos CLIs para documentar
-- 🐛 Correcciones o mejoras
+- 🐛 Correcciones o mejoras a documentación existente
+- 🧪 Tests adicionales
 - 📝 Traducciones a otros idiomas
 - 💡 Casos de uso adicionales
+- 🔧 Soluciones a problemas (troubleshooting)
 
-Por favor:
-1. Fork el repositorio
-2. Crea una rama (`git checkout -b feature/nueva-cli`)
-3. Commit tus cambios (`git commit -m 'Agregar documentación de X'`)
-4. Push a la rama (`git push origin feature/nueva-cli`)
-5. Abre un Pull Request
+### Proceso Rápido
+
+1. **Fork** el repositorio
+2. **Crea una rama** (`git checkout -b feature/nueva-cli`)
+3. **Haz tus cambios** (siguiendo [CONTRIBUTING.md](CONTRIBUTING.md))
+4. **Ejecuta tests** (`pytest`)
+5. **Commit** (`git commit -m 'Agregar documentación de X'`)
+6. **Push** (`git push origin feature/nueva-cli`)
+7. **Abre un Pull Request**
+
+**Tiempo típico de review:** 2-5 días
+
+### Reporte de Issues
+
+Encontraste un problema? [Abre un issue](https://github.com/Krakaur/guia-cli-ia/issues/new) con:
+- Descripción clara del problema
+- Pasos para reproducir
+- Sistema operativo y versión de CLI
+- Comportamiento esperado vs. observado
 
 ---
 
@@ -187,15 +292,20 @@ Por favor:
 
 Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para detalles.
 
+**En resumen:** Puedes usar, modificar y distribuir este proyecto libremente, incluso para uso comercial, siempre que mantengas el aviso de copyright.
+
 ---
 
 ## 👤 Autor
 
 **Dr. Hans Krakaur (Wintermute)**
-- Estudiante Doctoral en DSAE, Universidad de Guadalajara
-- Investigación: Sistemas Multi-Agente, IA para Sustentabilidad
-- GitHub: [@Krakaur](https://github.com/Krakaur)
-- Sitio: [krakaur.github.io/guia-cli-ia](https://krakaur.github.io/guia-cli-ia)
+- 🎓 Estudiante Doctoral en DSAE, Universidad de Guadalajara
+- 🔬 Investigación: Sistemas Multi-Agente, IA para Sustentabilidad
+- 💻 GitHub: [@Krakaur](https://github.com/Krakaur)
+- 🌐 Sitio: [krakaur.github.io/guia-cli-ia](https://krakaur.github.io/guia-cli-ia)
+- 🆔 ORCID: [0000-0002-6465-034X](https://orcid.org/0000-0002-6465-034X)
+- 📚 Google Scholar: [Ver publicaciones](https://scholar.google.com/citations?user=i6jd4FoAAAAJ&hl=en)
+- 💼 LinkedIn: [Conectar](https://www.linkedin.com/in/dirk-hans-krakaur-784ab51a0/)
 
 ---
 
@@ -211,8 +321,20 @@ Esta documentación fue desarrollada como parte del proyecto **Round Table** par
 
 ## 📞 Contacto
 
-¿Preguntas? ¿Sugerencias? Abre un [issue](https://github.com/Krakaur/guia-cli-ia/issues) o inicia una [discusión](https://github.com/Krakaur/guia-cli-ia/discussions).
+¿Preguntas? ¿Sugerencias? 
+
+- 💬 [Abre un issue](https://github.com/Krakaur/guia-cli-ia/issues)
+- 📧 [Inicia una discusión](https://github.com/Krakaur/guia-cli-ia/discussions)
+- 👥 Consulta [CONTRIBUTING.md](CONTRIBUTING.md) para guías de contribución
 
 ---
 
+## 🌟 Agradecimientos
+
+Gracias a todos los que han contribuido a hacer la IA más accesible para la comunidad hispanohablante de **577 millones de personas**.
+
 **⭐ Si esta guía te resulta útil, considera darle una estrella al repositorio!**
+
+---
+
+*Última actualización: 2026-01-03 | Versión: 1.0 | Estado: En revisión JOSS*
