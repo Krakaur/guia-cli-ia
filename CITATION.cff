@@ -1,0 +1,71 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Guía de CLIs de IA en Español: Documentación Práctica con Triangulación Geográfica"
+version: 1.0.0
+date-released: 2026-01-03
+authors:
+  - family-names: "Krakaur"
+    given-names: "Hans"
+    alias: "Wintermute"
+    orcid: "https://orcid.org/0000-0002-6465-034X"
+    affiliation: "Universidad de Guadalajara"
+    email: "85331368+Krakaur@users.noreply.github.com"
+repository-code: "https://github.com/Krakaur/guia-cli-ia"
+url: "https://krakaur.github.io/guia-cli-ia"
+abstract: >-
+  Guía completa en español para trabajar con interfaces de línea de comandos (CLI)
+  de modelos de lenguaje de última generación. Cubre 7 CLIs principales (Claude Code,
+  Gemini, Copilot, DeepSeek, Qwen, Codex, GitHub CLI) con documentación práctica
+  basada en experiencia empírica. Incluye metodología de triangulación geográfica
+  (USA/China) para reducir sesgos culturales en investigación académica con IA.
+  Primera guía completa de su tipo para la comunidad hispanohablante de 577 millones
+  de personas.
+keywords:
+  - artificial intelligence
+  - command line interface
+  - CLI
+  - LLM
+  - large language models
+  - documentation
+  - Spanish
+  - español
+  - geographic triangulation
+  - multi-agent systems
+  - Claude
+  - Gemini
+  - Copilot
+  - DeepSeek
+  - Qwen
+  - research tools
+  - academic research
+license: MIT
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Krakaur"
+      given-names: "Hans"
+      alias: "Wintermute"
+      orcid: "https://orcid.org/0000-0002-6465-034X"
+      affiliation: "Universidad de Guadalajara"
+  title: "Guía de CLIs de IA en Español: Documentación Práctica con Triangulación Geográfica"
+  year: 2026
+  journal: "Journal of Open Source Software"
+  status: "in review"
+  url: "https://github.com/Krakaur/guia-cli-ia"
+  notes: "Submitted to JOSS for peer review"
+references:
+  - type: software
+    title: "RoundTable MCP Server"
+    authors:
+      - family-names: "Krakaur"
+        given-names: "Hans"
+    url: "https://sala.krakaurcorp.uk/mcp"
+    notes: "Model Context Protocol server for multi-agent orchestration"
+  - type: software
+    title: "Paper-Search MCP"
+    authors:
+      - family-names: "Krakaur"
+        given-names: "Hans"
+    url: "https://academic.krakaurcorp.uk/mcp"
+    notes: "Academic search integration for literature review"
